@@ -29,13 +29,13 @@ app.get('/', (req, res) => {
     logger.warn(`[ALERT] Malicious activity detected by 'infected-lib' at ${new Date()}`);
 
         res.send(`
-        <h1>🚨 Warning: Your Web Application seems to be Infected! 🚨</h1>
-        <p>Your System may be at risk. This application has been infiltrated by a Malacious package designed to steal sensitive information.</p>
+        <h1>🚨 Warning: Your web application may be infected! 🚨</h1>
+        <p>Your system may be at risk. This application is using a malicious NPM package designed to steal sensitive information.</p>
         <p><strong>Malicious actions may include:</strong></p>
         <ul>
             <li>Creating unauthorized directories</li>
             <li>Storing sensitive credentials</li>
-            <li>Scanning for vulnerabilities in your system</li>
+            <li>Pivoting to take over other Azure resources</li>
         </ul>
         <p>Stay vigilant and monitor your environment closely! Use this as a training exercise to enhance your incident response skills.</p>
     `);
